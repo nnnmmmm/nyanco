@@ -1,0 +1,32 @@
+{
+  "name": "_development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.2.1",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^0.9.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.41.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "modal_npm": "git+https://gh-news.nhk.or.jp/ws003/modal_npm#semver:^5.0.0",
+    "timeline_npm": "git+https://gh-news.nhk.or.jp/ws003/timeline_npm#semver:^3.0.0"
+  }
+}
